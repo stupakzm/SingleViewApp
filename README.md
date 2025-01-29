@@ -71,14 +71,16 @@ A productivity app that uses **Accessibility Services** to monitor and control a
 
 ## Screenshots
 
-### Portrait Screen
-![Portrait](https://github.com/stupakzm/SingleViewApp/blob/main/screens/sva-portrait.jpg)
+### Portrait and Timer Active
+<p align="center">
+  <img src="https://github.com/stupakzm/SingleViewApp/blob/main/screens/sva-portrait.jpg" width="45%">
+  <img src="https://github.com/stupakzm/SingleViewApp/blob/main/screens/sva-time-active.jpg" width="45%">
+</p>
 
-### Landscape Screen
-![Landscape](https://github.com/stupakzm/SingleViewApp/blob/main/screens/sva-landscape.jpg)
-
-### Timer Active Screen
-![Timer Active](https://github.com/stupakzm/SingleViewApp/blob/main/screens/sva-timer-active.jpg)
+### Landscape
+<p align="center">
+  <img src="https://github.com/stupakzm/SingleViewApp/blob/main/screens/sva-landscape.jpg" width="60%">
+</p>
 
 ---
 
