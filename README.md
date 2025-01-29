@@ -69,6 +69,19 @@ A productivity app that uses **Accessibility Services** to monitor and control a
 
 ---
 
+## Screenshots
+
+### Portrait Screen
+![Portrait]()
+
+### Landscape Screen
+![Landscape]()
+
+### Timer Active Screen
+![Timer Active]()
+
+---
+
 ## License
 
 This project is licensed under the [Apache License 2.0](LICENSE).
