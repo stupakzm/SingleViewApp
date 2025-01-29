@@ -36,7 +36,7 @@ A productivity app that uses **Accessibility Services** to monitor and control a
 
 ## Getting Started
 
-1. [Download the APK here](#) and install it on your device.
+1. [Download the APK here](https://github.com/stupakzm/SingleViewApp/blob/main/singleviewapp.apk) and install it on your device.
 2. Enable the Accessibility Service for the app (see below).
 
 ---
