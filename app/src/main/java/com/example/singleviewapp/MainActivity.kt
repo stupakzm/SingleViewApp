@@ -298,16 +298,16 @@ fun StyledButton(
 ) {
     val context = LocalContext.current
     val usageCount = ButtonUsageManager.getUsageCountState(buttonId).value
-    val resetTimeLeft by remember { ButtonUsageManager.getResetTimeState(buttonId) }
+    //val resetTimeLeft by remember { ButtonUsageManager.getResetTimeState(buttonId) }
 
-    var formattedTime by remember { mutableStateOf("") }
+    //var formattedTime by remember { mutableStateOf("") }
 
-    LaunchedEffect(resetTimeLeft) {
-        while (resetTimeLeft > 0) {
-            formattedTime = formatTime(ButtonUsageManager.getTimeLeft(buttonId))
-            delay(60000) // Update every 1 minute
-        }
-    }
+    //LaunchedEffect(resetTimeLeft) {
+       // while (resetTimeLeft > 0) {
+            //formattedTime = formatTime(ButtonUsageManager.getTimeLeft(buttonId))
+           // delay(60000) // Update every 1 minute
+        //}
+    //}
 
     Button(
         onClick = {
@@ -325,10 +325,10 @@ fun StyledButton(
     ) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(text = text, color = textColor, fontWeight = FontWeight.Bold, fontSize = 16.sp)
-            if (usageCount > 0) {
+            if (usageCount >= 0) {
                 Text(text = "Uses left: $usageCount", fontSize = 12.sp, color = Color.Gray)
             } else {
-                Text(text = "Closest reset in $formattedTime", fontSize = 12.sp, color = Color.Red)
+                //Text(text = "Closest reset in $formattedTime", fontSize = 12.sp, color = Color.Red)
             }
         }
     }
